@@ -50,4 +50,4 @@ void sorter(int *array, size_t size, int *array_print, size_t size_print)
 		sorter(array, j - 1, array_print, size_print);
 	if ((size - j + 1) > 2)
 		sorter(array + j, size - j, array_print, size_print);
-}	
+}
