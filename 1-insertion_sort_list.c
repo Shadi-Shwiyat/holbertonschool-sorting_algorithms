@@ -30,10 +30,12 @@ void insertion_sort_list(listint_t **list)
 	}
 }
 /**
- * _swap - function to swap two nodes
- * Return: Void
+ * swap - function to swap two nodes
+ *
  * @current: The node with the biggest value
  * @previous: The node with the smallest value
+ *
+ * Return: void
 */
 void swap(listint_t *current, listint_t *previous)
 {
