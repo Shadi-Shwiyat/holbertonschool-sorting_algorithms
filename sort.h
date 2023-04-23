@@ -25,5 +25,6 @@ void swap(listint_t *current, listint_t *previous);
 listint_t *create_listint(const int *array, size_t size);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
+void sorter(int *array, size_t size, int *array_print, size_t size_print);
 
 #endif
